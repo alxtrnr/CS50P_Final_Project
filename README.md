@@ -1,6 +1,6 @@
 # The Hundred Pushups Training Program
 
-### **Video Demo:** [VID DEMO]()
+### **Video Demo:** [The Hundred Pushups Tracker](https://www.bitchute.com/video/qNwpAOjEMUFD/)
 
 ### **Description:** 
 Coded for my [CS50’s Introduction to Programming with Python](https://cs50.harvard.edu/python/2022/) final project. A 
@@ -13,21 +13,20 @@ stage of the program; view the training program for each day and week of the six
 
 * ```project.py```Contains the base class and functions of the app. A "Person" class creates a user instance. An instance 
 method works on user entered values (instance attributes) to calculate a rank. This may be referenced to measure 
-progress through the training program.  
+progress through the training program.\
 \
-Username is called to name the file to save details and progress to. The Pickle
-module is used for saving details. This keeps things simple. Security risk mitigated as only data created by the user is
-unpickled.  
+Username is called to name the file to save details and progress to. The Pickle module is used for saving details. This 
+keeps things simple. Security risk is I think adequately mitigated as only data created by the user is unpickled.\
 \
 Functions to display a menu, to create a user, to access each day/week of the program, to perform and record test
-results, to save progress and to exit the program are all coded here.  
+results, to save progress and to exit the program are all coded here.\
 \
-Effort has been made to catch exception errors from user input. Mostly while loops and try statements.  
+Effort has been made to catch exception errors from user input. Mostly while loops and try statements.\
 \
 Three additional functions have been added for testing / project submission purposes. These functions simply return 
 default instance attributes as called. The main tests coded apply to the class instance methods. While more "advanced" 
 these tests alone do not fulfill project submission requirements, hence the extra functions and testing. The value and 
-process of TDD is acknowledged. Lesson learned! 
+process of TDD is acknowledged. Said function could have been outside the class.
 
 
 * ```text_blocks.py``` Text describing and guiding the user as they work through the training program. Coded to be 
