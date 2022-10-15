@@ -1,4 +1,4 @@
-# The Hundred Pushups Training Program
+# The Hundred Pushups Training Program Tracker
 
 ### **Video Demo:** [The Hundred Pushups Tracker](https://www.bitchute.com/video/qNwpAOjEMUFD/)
 
